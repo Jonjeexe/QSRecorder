@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  
+  /* Box Size */
+  box-sizing: border-box;
+  
+  /* Font style */
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+/* Main codes */
+.Navbar {
+  width:95%;
+  height:60px;
+  box-shadow:0 0 5px #aaa;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: ;	
+  justify-content: space-between;
+}
+.Navbar img{
+  height: 38px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.Navbar a{
+  text-decoration: none;
+  color: #333;
+}
+
+/* Tittle */
+.Tittle{
+  margin-top: 20px;
+  width: 95%;
+  height: auto;
+}
+.Tittle p{
+  color: #aaa;
+  font-size: 10px;
+}
+
+/* Intro */
+.Intro-img{
+  height:130px;
+  box-shadow:0 0 5px #aaa;
+  border-radius: 10%;
+  margin-top: 35px;
+  
+}
+.Intro{
+  width: 95%;
+  height: auto;
+  padding:10px 30px 30px 30px;
+  box-shadow: 0 0 3px #aaa;
+  margin:0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.Intro p{
+  font-size: 11px;
+  margin-top: 5px;
+}
+.Intro a{
+  padding:10px 10px 10px 10px;
+  text-decoration: none;
+  background-color: #00a2ff;
+  color: #FFFFFF;
+  font-size: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+}
